@@ -10,6 +10,79 @@
 
 <body>
 
+    <h1>Quizz Game</h1>
+
+    <section class="container">
+
+        <!-- Here is the form with all the question -->
+        <form class="quizz">
+
+            <!-- Each div for each question -->
+            <div class="question-block">
+                <h3>What is the capital of Israel ?</h3>
+                <!-- the answer in radio input -->
+                <div>
+                    <input type="radio" name="q1" id="tel-aviv" value="a" checked>
+                    <label for="tel-aviv">Tel-aviv</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="q1" id="haifa" value="b">
+                    <label for="haifa">Haifa</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="jerusalem" value="c">
+                    <label for="jerusalem">Jerusalem</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h3>What is the monnaie of Israel ?</h3>
+                <div>
+                    <input type="radio" name="q2" id="shekel" value="a" checked>
+                    <label for="shekel">Shekel</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="q2" id="euro" value="b">
+                    <label for="euro">Euro</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="pesos" value="c">
+                    <label for="pesos">Pesos</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h3>When was the indepance day of Israel ?</h3>
+                <div>
+                    <input type="radio" name="q3" id="april" value="a" checked>
+                    <label for="april">April 1950</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="q3" id="may" value="b">
+                    <label for="may">May 1948</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="june" value="c">
+                    <label for="june">June 1954</label>
+                </div>
+            </div>
+            <button type="submit">VALIDATE</button>
+
+        </form>
+
+
+        <div class="result">
+            <h2>Click validate to show your results</h2>
+            <p class="mark"></p>
+            <p class="help"></p>
+        </div>
+
+
+    </section>
+
 </body>
 
 </html>
