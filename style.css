@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    padding: 20px 10px;
+    background: RGB(57, 135, 201);
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1 span {
+    font-weight: 700;
+}
+
+/* Im making my container reponsive using margin and max-width */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* I customize each div  */
+
+.question-block {
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 5px 10px;
+}
+
+.question-block h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* Here i put style on each input and label */
+.question-block>div {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+/* here the input and label */
+
+label,
+input[type="radio"] {
+    cursor: pointer;
+}
+
+.question-block label {
+    font-size: 21px;
+}
+
+.question-block input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+/* Style of the button */
+
+button {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: white;
+    min-width: 200px;
+    padding: 15px 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.results {
+    padding: 20px;
+    margin: 10px 0px 50px;
+    border-radius: 5px;
+    background: white;
+}
+
+.results h2 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.results h2,
+.help {
+    text-align: center;
+}
+
+.help,
+.mark {
+    display: none;
+    margin-top: 20px;
+
+}
+
+.help {
+    font-size: 20px;
+}
+
+.mark {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
